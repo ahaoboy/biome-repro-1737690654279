@@ -4,6 +4,7 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"deno:format": "deno fmt src",
 		"format": "biome format .",
 		"lint": "biome lint",
 		"check": "biome check",
